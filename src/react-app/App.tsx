@@ -11,14 +11,13 @@ function App() {
   return (
     <>
       <div style={{ textAlign: "center", marginTop: "20px" }}>
-        {/* បង្ហាញរូបភាពរបស់អ្នកនៅទីនេះ */}
         <img src={myImage} alt="Y2 Logo" style={{ width: "200px" }} />
+        <h1>កម្មវិធី Y2</h1>
       </div>
 
       <div style={{ textAlign: "center" }}>
-        <h1>Y2 App</h1>
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          ចំនួនគឺ {count}
         </button>
       </div>
     </>
